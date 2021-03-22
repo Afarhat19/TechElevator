@@ -1,10 +1,10 @@
-# Collections - Part 1 Exercises
+# Collections - Part 2 Exercises
 
-The purpose of this exercise is to gain experience using the `List` object to better understand how it solves problems.
+The purpose of this exercise is to gain experience using the `Dictionary` object to better understand how it solves problems.
 
 ## Evaluation criteria and functional requirements
 
-* You must use the `List` object, not arrays.
+* You must use the `Dictionary` object, not arrays.
 * The project must not have any build errors.
 * Unit tests pass as expected.
 * Appropriate variable names and data types are being used.
@@ -12,10 +12,10 @@ The purpose of this exercise is to gain experience using the `List` object to be
 
 ## Getting started
 
-1. Open the `collections-part1-exercise.sln` solution in Visual Studio.
+1. Open the `collections-part2-solution.sln` solution in Visual Studio.
 2. Click on the **Test > Run All Tests** Menu.
 3. Click on the **Test Explorer** tab to see the results of your tests and which passed and failed.
-4. Write your code in the provided classes in the `Exercises` project, starting with `01_Array2List.cs`.
+4. Write your code in the provided classes in the `Exercises` project, starting with `01_AnimalGroupName.cs`.
 5. Provide enough code to get a test passing.
 6. Repeat until all tests are passing.
 
@@ -27,9 +27,9 @@ Here are some tips that may help you as you work on your exercises.
 
 Before each method, there's a description of the problem that needs to be solved and examples with the expected output. Use these examples to figure out the values you need to write your code around. It may help to keep track of the state of variables on a piece of paper as you work on your exercises.
 
-For example, in the comments above the `Array2List` method, there's a section that includes the method name and the expected value that's returned for each method call. The following example shows that when the method is called with `["Apple", "Orange", "Banana"]`, it returns a `List<string>` that contains three elements("Apple", "Orange", and "Banana"):
+For example, in the comments above the `AnimalGroupName` method, there's a section that includes the method name and the expected value that's returned for each method call. The following example shows that when the method is called with `"giraffe"`, it returns `"Tower"`.
 
-    Array2List( {"Apple", "Orange", "Banana"} )  ->  ["Apple", "Orange", "Banana"]
+    AnimalGroupName("giraffe") → "Tower"
 
 ### Check test output if your tests are failing
 
@@ -43,8 +43,8 @@ If you find yourself stuck on a problem more than fifteen minutes, move on to th
 
 ### Read the documentation
 
-As a developer, you'll find documentation for classes and libraries to be invaluable resources when completing your work. Reading and understanding documentation now will help you in the long run. Feel free to read the documentation for the [List][.net-core-list-api-docs] class.
+As a developer, you'll find documentation for classes and libraries to be invaluable resources when completing your work. Reading and understanding documentation now will help you in the long run. Feel free to read the documentation for the [Dictionary][.net-core-dict-api-docs] class.
 
 ---
 
-[.net-core-list-api-docs]: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=netcore-2.2
+[.net-core-dict-api-docs]: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=netcore-2.2
